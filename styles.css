@@ -1,0 +1,70 @@
+html,
+body {
+    background-color: aquamarine;
+    margin: 0;
+    cursor: url(drink.png), auto !important;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+#customers {
+    position: relative;
+}
+
+#customers div {
+    position: absolute;
+    transition: transform 2s ease;
+    width: 20%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    background-image: url(https://media2.giphy.com/media/tXL4FHPSnVJ0A/giphy.gif);
+    z-index: 10;
+}
+
+#bar {
+    position: fixed;
+    bottom: -100px;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(bar.png);
+}
+
+#bar div {
+    position: fixed;
+    left: 90%;
+    bottom: 0;
+    height: 240px;
+    width: 160px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(beer_full.png);
+    z-index: 2;
+}
+
+#harold {
+    position: absolute;
+    left: -10%;
+    top: 0%;
+    transform-origin: 50% 200%;
+    height: 540px;
+    width: 460px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(harold.png);
+    z-index: 2;
+    transition: transform 2s ease;
+}
